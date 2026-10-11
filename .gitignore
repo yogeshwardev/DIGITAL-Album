@@ -1,0 +1,14 @@
+# Videos are 2-6 GB each - far over GitHub's 100 MB file limit. Keep them on the PC.
+*.mp4
+*.part.mp4
+*.VOB
+# Songs are copyrighted - don't publish them.
+media/music/*.mp3
+media/music/*.m4a
+media/music/*.aac
+media/music/*.wav
+media/music/*.ogg
+media/music/*.flac
+# Build logs
+tools/*.log
+__pycache__/

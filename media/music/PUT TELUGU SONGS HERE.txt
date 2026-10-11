@@ -1,0 +1,8 @@
+Copy your Telugu songs (.mp3 / .m4a) into this folder.
+
+Then open the website with "Start Show.bat" - it finds the songs automatically
+and plays them (shuffled) on the home page and during the photo slideshows.
+Music fades out automatically while the wedding film is playing.
+
+You can also tap the ＋ button on the music player at the bottom-right of the
+website to pick songs from any device (works on phones too).

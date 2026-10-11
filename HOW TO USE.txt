@@ -1,0 +1,39 @@
+శుభ వివాహం · దొరబాబు ❤ రేవతి — ఎలా చూడాలి / HOW TO WATCH
+==========================================================
+
+ఫోన్‌లో చూడటానికి (WATCH ON PHONES)
+  1. ఈ కంప్యూటర్‌లో "Start Show.bat" పై డబుల్-క్లిక్ చేయండి.
+     Double-click "Start Show.bat" on this computer.
+  2. నల్లని విండోలో ఇలా ఒక చిరునామా కనిపిస్తుంది:  http://192.168.x.x:8080
+     The black window shows an address like  http://192.168.1.5:8080
+  3. అదే Wi-Fi లో ఉన్న ఫోన్‌లో Chrome తెరిచి ఆ చిరునామా టైప్ చేయండి.
+     On any phone on the SAME Wi-Fi, open Chrome and type that address.
+  4. Chrome మెనూ (⋮) → "Add to Home screen" నొక్కితే యాప్ లాగా ఐకాన్ వస్తుంది.
+     Tip: Chrome menu (⋮) → "Add to Home screen" gives it an app icon.
+  * చూస్తున్నంత సేపు కంప్యూటర్ ఆన్‌లో ఉండాలి, నల్లని విండో మూయకూడదు.
+    Keep the computer on and the black window open while family is watching.
+  * Windows "Allow Python?" అని అడిగితే → Private networks → Allow.
+
+వీడియో ప్లేయర్ (PLAYER)
+  * "ముఖ్య ఘట్టాలు" — జీలకర్ర బెల్లం, మాంగల్య ధారణ, తలంబ్రాలు... నేరుగా నొక్కి చూడండి.
+  * వీడియో కింద ఘట్టాల జాబితా — ఏ ఘట్టం నొక్కితే అక్కడికి వెళ్తుంది.
+  * "తర్వాతి ఘట్టం" / "ముందు ఘట్టం" బటన్లు.
+  * రెండుసార్లు ఎడమ/కుడి నొక్కితే 10 సెకన్లు వెనక్కి/ముందుకు.
+  * ఫోన్ అడ్డంగా తిప్పితే పెద్ద స్క్రీన్.
+  * HD/SD బటన్: SD = తక్కువ డేటా (ఫోన్లకు), HD = అత్యుత్తమ నాణ్యత (టీవీ/లాప్‌టాప్).
+  * ఎక్కడ ఆపారో గుర్తుంచుకుని అక్కడి నుండే మొదలవుతుంది.
+
+తెలుగు పాటలు (TELUGU SONGS)
+  పాటలు (.mp3) ఈ ఫోల్డర్‌లో కాపీ చేయండి:  media\music\
+  Copy .mp3 songs into media\music\ — they play on the home page and photo slideshows,
+  and pause automatically while a video plays. On a phone: "పాటలు" tab → "+" to add songs.
+
+పేర్లు / వివరాలు మార్చడానికి (EDIT TEXT)
+  config.js ని Notepad తో తెరిచి " " లోపలి పదాలు మార్చి Save చేయండి.
+  Every name, date, chapter title and the invitation text is in config.js.
+
+ఫోల్డర్లు (FOLDERS)
+  media\disc1.mp4, disc2.mp4 ............ HD వీడియోలు (కంప్యూటర్/టీవీ)
+  media\disc1-mobile.mp4, disc2-mobile.mp4 ఫోన్ వీడియోలు (తక్కువ సైజు)
+  media\photos\ .......................... ఫోటోలు (అసలు ఫోటోలు మారలేదు)
+  tools\ ................................. తయారీ స్క్రిప్ట్‌లు

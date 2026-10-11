@@ -1,0 +1,77 @@
+// ✏️  వెబ్‌సైట్‌లోని పదాలు ఇక్కడ మార్చవచ్చు (Notepad తో తెరిచి, " " లోపలి పదాలు మార్చి, Save చేసి, Refresh చేయండి).
+// Edit any text on the website here: open in Notepad, change the words inside the quotes, save, refresh.
+window.SITE = {
+  telugu: "శుభ వివాహం",
+  groom: "దొరబాబు", bride: "రేవతి",
+  groomFull: "ఎన్. దొరబాబు", brideFull: "ఎన్. రేవతి",
+  english: "N. Dorababu  &  N. Revathi",
+  date: "7 సెప్టెంబర్ 2005 · బుధవారం",
+  dateEn: "Wednesday, 7 September 2005",
+  venue: "శ్రీ ఈశ్వర ఆలయం, కట్టమంచి, చిత్తూరు",
+  venueEn: "Sri Eswara Temple, Kattamanchi, Chittoor",
+  welcome: "స్వాగతం",
+  child: "బాబీ", childEn: "Bobby",
+  credit: "వీడియో: శ్రీ సూర్య డిజిటల్ వీడియోస్, చిత్తూరు",
+
+  // Wedding invitation (shubhalekha) — taken from the title cards at the start of the DVD.
+  invite: {
+    hosts: "శ్రీమతి & శ్రీ నందిపల్లె రాజేంద్ర, బెంగళూరు",
+    line: "తమ సోదరుని కుమారుని వివాహమునకు సాదరంగా ఆహ్వానిస్తున్నారు",
+    groomLine: "చి॥ ఎన్. దొరబాబు",
+    groomOf: "కీ.శే. ఎన్. కర్తవరాయుడు గారి కుమారుడు",
+    brideLine: "చి॥ల॥సౌ॥ రేవతి",
+    brideOf: "శ్రీ పి. వెంకటేశులు గారి కుమార్తె, నెలవాయి",
+    muhurtham: "7-9-2005 బుధవారం తెల్లవారుజామున 4:30 – 5:30 · కర్కాటక లగ్నం",
+    dinner: "విందు: 6-9-2005 మంగళవారం రాత్రి 7:00 గంటలకు",
+  },
+
+  // The two DVDs. t = start time in seconds, te = Telugu name, en = English name, key = order in "important moments" (1 = first).
+  films: [
+    {
+      id: "disc1", title: "పార్ట్ 1", titleEn: "Part 1", subtitle: "పెళ్లికి ముందు వేడుకలు & రిసెప్షన్", subtitleEn: "Ceremonies & reception",
+      src: "media/disc1.mp4", mobile: "media/disc1-mobile.mp4", duration: 4302.8, poster: "media/stills/disc1.jpg",
+      chapters: [
+        { t: 0,    te: "ప్రారంభం · గణపతి ప్రార్థన", en: "Opening & Ganesha prayer", thumb: 55 },
+        { t: 80,   te: "శుభలేఖ", en: "The wedding invitation" },
+        { t: 240,  te: "వధూవరుల ఫోటో పాట", en: "Song with the couple's photos" },
+        { t: 600,  te: "మా ఊరు · ఇల్లు · పూజ గది", en: "Our village, home & prayer room" },
+        { t: 740,  te: "పెద్దల ఫోటోలు", en: "Photos of the elders" },
+        { t: 800,  te: "పెళ్లికొడుకుకి కానుకలు", en: "Gifts for the groom" },
+        { t: 860,  te: "పెళ్లికొడుకుని చేయడం (నలుగు)", en: "Groom's turmeric ceremony", key: 7 },
+        { t: 1400, te: "సారెతో ఊరేగింపు", en: "Procession with gift plates" },
+        { t: 1500, te: "పెళ్లికూతుర్ని చేయడం", en: "Bride's ceremony", key: 8 },
+        { t: 1940, te: "పెళ్లికూతురికి స్వాగతం", en: "Welcoming the bride" },
+        { t: 2050, te: "పూల పాట", en: "Flower song" },
+        { t: 2360, te: "వేదికపైకి వధూవరులు", en: "Couple arrive on stage" },
+        { t: 2540, te: "దండలు మార్చుకోవడం", en: "Exchange of garlands", key: 6 },
+        { t: 2580, te: "రిసెప్షన్ · ఆశీర్వాదాలు", en: "Reception & blessings" },
+        { t: 3000, te: "విందు భోజనాలు", en: "The wedding feast", key: 9 },
+        { t: 3160, te: "బంధుమిత్రులతో ఫోటోలు", en: "Photos with family & friends" },
+      ],
+    },
+    {
+      id: "disc2", title: "పార్ట్ 2", titleEn: "Part 2", subtitle: "పెళ్లి రోజు · ముహూర్తం", subtitleEn: "The wedding day",
+      src: "media/disc2.mp4", mobile: "media/disc2-mobile.mp4", duration: 4134.8, poster: "media/stills/disc2.jpg",
+      chapters: [
+        { t: 0,    te: "రిసెప్షన్ ఫోటోలు", en: "More reception photos" },
+        { t: 230,  te: "వధూవరుల విందు", en: "The couple's dinner" },
+        { t: 420,  te: "వధూవరుల ఫోటో షూట్", en: "Couple photo shoot" },
+        { t: 730,  te: "వధూవరులకు నలుగు & హారతి", en: "Turmeric & aarti for the couple" },
+        { t: 1400, te: "ప్రేమ పాట", en: "Love song" },
+        { t: 1770, te: "పెళ్లి మండపం · అతిథుల రాక", en: "Guests arrive at the mandapam" },
+        { t: 1930, te: "కాశీ యాత్ర", en: "Kasi yatra", key: 4 },
+        { t: 2000, te: "మండపంలో పూజలు", en: "Rituals at the mandapam" },
+        { t: 2376, te: "జీలకర్ర బెల్లం · శుభ ముహూర్తం", en: "Jeelakarra bellam — the auspicious moment", key: 1 },
+        { t: 2425, te: "మాంగల్య ధారణ", en: "Tying the thaali", key: 2 },
+        { t: 2560, te: "ముత్యాల తలంబ్రాలు", en: "Muthyala talambralu", key: 3 },
+        { t: 2600, te: "మెట్టెలు తొడగడం", en: "Toe rings (mettelu)", key: 5 },
+        { t: 2620, te: "మిగిలిన పెళ్లి క్రతువు", en: "Remaining wedding rituals" },
+        { t: 3100, te: "తిరుమల శ్రీవారి దర్శనం", en: "Tirumala darshan" },
+        { t: 3310, te: "వధూవరులకు పాలు పండ్లు", en: "Milk & fruits for the couple" },
+        { t: 3400, te: "సారె సామాన్లు", en: "The sare gifts" },
+        { t: 3500, te: "కుటుంబంతో ఫోటోలు", en: "Family photos" },
+        { t: 3790, te: "దుబాయ్ దృశ్యాలతో పాట", en: "Song with Dubai scenes" },
+      ],
+    },
+  ],
+};
