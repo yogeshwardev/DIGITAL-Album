@@ -1,0 +1,20 @@
+# Files Cloudflare must NOT upload (Workers static assets: max 25 MiB per file).
+# The videos stream from the GitHub release instead.
+.git/
+.wrangler/
+.gitignore
+.assetsignore
+wrangler.jsonc
+node_modules/
+*.mp4
+*.VOB
+tools/
+Start Show.bat
+HOW TO USE.txt
+README.md
+media/music/*.mp3
+media/music/*.m4a
+media/music/*.aac
+media/music/*.wav
+media/music/*.ogg
+media/music/*.flac

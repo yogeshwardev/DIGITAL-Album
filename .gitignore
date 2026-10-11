@@ -12,3 +12,5 @@ media/music/*.flac
 # Build logs
 tools/*.log
 __pycache__/
+.wrangler/
+node_modules/

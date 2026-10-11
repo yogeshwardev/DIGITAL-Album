@@ -1,0 +1,17 @@
+# Cloudflare cache rules: pictures rarely change, page code should always be fresh.
+/media/photos/*
+  Cache-Control: public, max-age=2592000, immutable
+/media/previews/*
+  Cache-Control: public, max-age=2592000
+/media/stills/*
+  Cache-Control: public, max-age=2592000
+/assets/icon-*
+  Cache-Control: public, max-age=2592000
+/*.js
+  Cache-Control: no-cache
+/manifest.json
+  Cache-Control: no-cache
+/assets/*.css
+  Cache-Control: no-cache
+/
+  Cache-Control: no-cache
