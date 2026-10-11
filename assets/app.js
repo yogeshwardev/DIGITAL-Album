@@ -213,7 +213,10 @@ const player = (() => {
   quality = store.get("quality") || (isPhone ? "sd" : "hd");
 
   const film = () => FILMS[fi];
-  const srcFor = f => (quality === "sd" && f.mobile ? f.mobile : f.src);
+  /* opened from the internet (not this PC / home Wi-Fi): stream the phone version from the GitHub release */
+  const ONLINE = location.protocol !== "file:" && !/^(localhost|127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.)/.test(location.hostname);
+  const srcFor = f => (ONLINE && f.online && SITE.onlineVideos ? SITE.onlineVideos + f.online : quality === "sd" && f.mobile ? f.mobile : f.src);
+  if (ONLINE) $("#pQuality").style.display = "none";
 
   function open(idx, t) {
     if (!wrap.classList.contains("open")) {

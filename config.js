@@ -12,6 +12,11 @@ window.SITE = {
   welcome: "స్వాగతం",
   child: "బాబీ", childEn: "Bobby",
   credit: "వీడియో: శ్రీ సూర్య డిజిటల్ వీడియోస్, చిత్తూరు",
+  madeBy: "బాబీ ప్రేమతో రూపొందించినది ❤",
+  madeByEn: "Created by Bobby with love",
+
+  // When the site is opened from the internet (GitHub Pages) the videos stream from the GitHub release below.
+  onlineVideos: "https://github.com/yogeshwardev/DIGITAL-Album/releases/download/videos/",
 
   // Wedding invitation (shubhalekha) — taken from the title cards at the start of the DVD.
   invite: {
@@ -29,7 +34,7 @@ window.SITE = {
   films: [
     {
       id: "disc1", title: "పార్ట్ 1", titleEn: "Part 1", subtitle: "పెళ్లికి ముందు వేడుకలు & రిసెప్షన్", subtitleEn: "Ceremonies & reception",
-      src: "media/disc1.mp4", mobile: "media/disc1-mobile.mp4", duration: 4302.8, poster: "media/stills/disc1.jpg",
+      src: "media/disc1.mp4", mobile: "media/disc1-mobile.mp4", online: "disc1-web.mp4", duration: 4302.8, poster: "media/stills/disc1.jpg",
       chapters: [
         { t: 0,    te: "ప్రారంభం · గణపతి ప్రార్థన", en: "Opening & Ganesha prayer", thumb: 55 },
         { t: 80,   te: "శుభలేఖ", en: "The wedding invitation" },
@@ -51,7 +56,7 @@ window.SITE = {
     },
     {
       id: "disc2", title: "పార్ట్ 2", titleEn: "Part 2", subtitle: "పెళ్లి రోజు · ముహూర్తం", subtitleEn: "The wedding day",
-      src: "media/disc2.mp4", mobile: "media/disc2-mobile.mp4", duration: 4134.8, poster: "media/stills/disc2.jpg",
+      src: "media/disc2.mp4", mobile: "media/disc2-mobile.mp4", online: "disc2-web.mp4", duration: 4134.8, poster: "media/stills/disc2.jpg",
       chapters: [
         { t: 0,    te: "రిసెప్షన్ ఫోటోలు", en: "More reception photos" },
         { t: 230,  te: "వధూవరుల విందు", en: "The couple's dinner" },
